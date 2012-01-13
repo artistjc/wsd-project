@@ -2,64 +2,128 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='main-css.css' rel='stylesheet' type='text/css'>
 		<title>Classes at the Cozy Crop House</title>
 	</head>
 
 <body>
-    <header>
-        <h1>Classes At The Cozy Crop House</h1>
-        <img src="images/cch_logo.png" alt="Cozy Crop House Scrapbooking Retreat House" width="143" height="127" title="Cozy Crop House Logo" />
+	<header>
+        <h1 id="top">Classes At The Cozy Crop House</h1>
+        <img src="images/cch_logo.png" alt="Cozy Crop House Scrapbooking Retreat House" width="182" height="160" title="Cozy Crop House Logo" />
     </header>
-    
+  
+  <div id="page-wrapper">
+
     <nav>
         <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="meet-the-teachers.html">Meet The Teachers</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="#content1">Classes</a></li>
+        <li><a href="#content2">Meet The Teachers</a></li>
+        <li><a href="#content3">Retreats</a></li>
         </ul>
     </nav>
     
-    <div id="intro">
-        <h2>Cozy Crop House Classes</h2>
-        <p>Below is a list of the classes available at the Cozy Crop House during a Cozy Crop Weekend. <em>Please keep in mind not all classes are available every weekend due instructor schedules.</em> But if you let us know early enough we will do the best to accommodate you.</p>
-
-        <p> Basic Supplies you’ll need to bring to class:</p>
-        <ol>
-            <li>Scissors</li>
-            <li>Adhesive</li>
-            <li>Trimmer</li>
-            <li>Journaling Pen</li>
-        </ol>
+	<div id="intro">
+	<article>
+		<img src="images/summer_class.jpg" alt="2010 Summer Class" width="374" height="169" title="Photo of our 2010 summer class" /> 
+		<h1>Welcome to the <br />Cozy Crop House class page</h1>
+			<p>Below is a list of the classes available at the Cozy Crop House during a Cozy Crop Weekend. <em>Please keep in mind not all classes are available every weekend due instructor schedules.</em> But if you let us know early enough we will do the best to accommodate you.</p>
+	
+			<p> Basic Supplies you’ll need to bring to class:</p>
+			<ol>
+				<li>Scissors</li>
+				<li>Adhesive</li>
+				<li>Trimmer</li>
+				<li>Journaling Pen</li>
+			</ol>
+	</article>
+	
+    <div id="registration-form"><!--This will be an actual form-->
+		<h2>Register</h2>
+		<p>Name</p>
+		<p>Date Of Cozy Crop Weekend You Are Attending</p>
+		<p>Please check all classes you are interested in taking:</p>
+		<ul>
+		<li><a href="#class1"> Gotta Love The Mouse</a></li>
+		<li><a href="#class2"> Cricut 101</a></li>
+		<li><a href="#class3"> Just 6 Sheets of Paper</a></li>
+		<li><a href="#class4"> Explosion Box Class</a></li>
+		</ul>
+		<a href="#" class="button blue"> Register </a>
+	</div> <!--registration-form-->
     </div> <!--intro-->
 
     <div id="main-content">
-    <article>
-        <img src="images/gotta_love_mouse.jpg" alt="Gotta Love The Mouse Class" width="105" height="105" title="Gotta Love The Mouse Sample Layout" />
-        <h3>“Gotta Love the Mouse!” Class - 6 pages!</h3>
-        <p class="price"><strong>$25 1.5 Hours</strong> | Instructor: Rut Lopez</p>
-        <p>This class was inspired by Rut’s last trip to Disney. So if you’re working on your Disney album this is the class to be in! You’ll create THREE 2-page layouts, using various techniques from paper tearing to ribbon as embellishment and rounding corners in interesting ways! You can’t miss this class! All embellishments and papers (cut to size) are provided. So come and join the Disney fun in the “Gotta Love The Mouse!” page class. </p>
-       </article>
-
-    <article>
-        <img src="images/cricut_class.jpg" alt="Gotta Love The Mouse Class" width="105" height="105" title="Gotta Love The Mouse Sample Layout" /><h3>Cricut 101</h3>
-        <p class="price"><strong>$15 2 Hours</strong> | Instructor: Kate Rothacker</p>
-        <p>This fantastic class covers everything you’ve ever needed to know about using your Cricut and then some! You’ll get to create a cool, hands-on make and take, plus learn tips on using the Cricut, such as how to keep the cutting mats sticky longer, online resources, etc., and where to download the newest Cricut ‘cheat sheet’ to help you find what can be cut on each cartridge.</p>
-       </article>
-
-    <article>
-        <img src="images/six_sheets.jpg" alt="Use Only Six Sheets Of Paper And Make Over 6 Different Items " width="105" height="105" title="All the things you can make in this class" />       
-        <h3>Rut’s “Just 6 Sheets of Paper” Class</h3>
-        <p class="price"><strong>$20 2 Hours</strong> | Instructor: Rut Lopez</p>
-        <p>Using 3 sheets of 12”x12” cardstock, 3 sheets of 12”x12” patterned paper, ribbon and some embellishments, you will create a 2 page layout, 3 tags, 2 cards, 1 notebook cover and 1 index card book.</p>
-    </article>
     
-    <article>
-        <img src="images/explosion_box.jpg" alt="Explosion Box Class" width="105" height="105" title="Sample Of Explosion Box" />        <h3>Explosion Box Class</h3>
-        <p class="price"><strong>$15 1.5 Hours</strong> | Instructor: Rut Lopez</p>
-        <p>This explosion box album is a cool little album. The end product is a 4x4  square shaped album. When you take off the lid, it opens/explodes into a mini album.</p>
-    </article>
-    </div> <!--Main-Content-->
+        <div id="content1">
+            <h2>Cozy Crop House Classes</h2>
+            <article id="class1">
+                <h3><img src="images/gotta_love_mouse.jpg" alt="Gotta Love The Mouse Class" width="105" height="105" title="Gotta Love The Mouse Sample Layout" />“Gotta Love the Mouse!” Class - 6 pages!</h3>
+                <p class="price"><strong>$25 1.5 Hours</strong> | Instructor: Rut Lopez</p>
+                <p>This class was inspired by Rut’s last trip to Disney. So if you’re working on your Disney album this is the class to be in! You’ll create THREE 2-page layouts, using various techniques from paper tearing to ribbon as embellishment and rounding corners in interesting ways! You can’t miss this class! All embellishments and papers (cut to size) are provided. So come and join the Disney fun in the “Gotta Love The Mouse!” page class. </p>
+                <p class="back-element"> <a href="#top"> back to top</a></p>
+            </article>
+    
+            <article id="class2">
+            <h3> <img src="images/cricut_class.jpg" alt="Gotta Love The Mouse Class" width="105" height="105" title="Gotta Love The Mouse Sample Layout" />Cricut 101</h3>
+            <p class="price"><strong>$15 2 Hours</strong> | Instructor: Kate Rothacker</p>
+            <p>This fantastic class covers everything you’ve ever needed to know about using your Cricut and then some! You’ll get to create a cool, hands-on make and take, plus learn tips on using the Cricut, such as how to keep the cutting mats sticky longer, online resources, etc., and where to download the newest Cricut ‘cheat sheet’ to help you find what can be cut on each cartridge.</p>
+            <p class="back-element"> <a href="#top"> back to top</a></p>
+           </article>
+    
+        <article id="class3">
+                <h3> <img src="images/six_sheets.jpg" alt="Use Only Six Sheets Of Paper And Make Over 6 Different Items " width="105" height="105" title="All the things you can make in this class" />  Rut’s “Just 6 Sheets of Paper” Class</h3>
+                <p class="price"><strong>$20 2 Hours</strong> | Instructor: Rut Lopez</p>
+                <p>Using 3 sheets of 12”x12” cardstock, 3 sheets of 12”x12” patterned paper, ribbon and some embellishments, you will create a 2 page layout, 3 tags, 2 cards, 1 notebook cover and 1 index card book.</p>
+                <p class="back-element"> <a href="#top"> back to top</a></p>
+        </article>
+        
+        <article id="class4">
+            <h3> <img src="images/explosion_box.jpg" alt="Explosion Box Class" width="105" height="105" title="Sample Of Explosion Box" /> Explosion Box Class</h3>
+            <p class="price"><strong>$15 1.5 Hours</strong> | Instructor: Rut Lopez</p>
+            <p>This explosion box album is a cool little album. The end product is a 4x4  square shaped album. When you take off the lid, it opens/explodes into a mini album.</p>
+            <p class="back-element"> <a href="#top"> back to top</a></p>
+        </article>
+    
+        </div> <!--content1-->
+    
+        <div id="content2">
+    
+    <h2>Meet The Teachers</h2>
+    
+    <p><img src="images/jodi.jpg" alt="Photo of Instructor Jodi" width="98" height="98" title="Photo of Instructor Jodi" /></p>
+    <p><img src="images/linda.jpg"  alt="Photo of Instructor Linda" width="98" height="98" title="Photo of Instructor Jodi" /></p>
+    <p><img src="images/rut.jpg"  alt="Photo of Instructor Rut" width="98" height="98" title="Photo of Instructor Jodi" /></p>
+    <p><img src="images/randy.jpg"  alt="Photo of Instructor Randy" width="98" height="98" title="Photo of Instructor Randy" /></p>
+    <p><img src="images/tiff.jpg" alt="Photo of Instructor Tiff" width="98" height="98" title="Photo of Instructor Tiff" /></p>
+    <p class="back-element"> <a href="#top"> back to top</a></p>
+    
+    </div> <!--content2-->
+    
+        <div id="content3">
+    
+            <h2>Cozy Crop House Retreats</h2>
+    
+            <article>
+                <p>All the comforts of home with none of the concerns!</p>
+                <p>Imagine a home set up as a scrapbook studio, with tables, lighting, supplies, and scrapbook friends.</p>
+                <p>No meals to prepare, no laundry to do, no non-scrapping interruptions.</p>
+                <p>A kitchen full of snacks and coffee when you want them (no waiting for hotel staff to show up)</p>
+                <p>A bedroom to go to for a quick nap when you’re ready, your work and supplies spread out and waiting for your energized return!</p>
+                <p>Stuck for ideas? Experienced scrapbookers there to help you or teach you some “new tricks.”</p>
+                <p>Out of adhesive? Shop from the in-house vendor or take a trip to the nearby scrapbook supply stores (we’re surrounded by stores around the county).</p>
+                <p>Just feel like taking a break? Sit out on our patio or front porch and enjoy the view. You may get to see Amish horse-and-buggy traffic sharing the road with our car-driving neighbors!</p>
+                <p>As dedicated croppers, we know how much you can accomplish when you are allowed to focus--so our goal is to let your creativity run free while we take care of your other needs.</p>
+            </article>
+    
+            <p class="back-element"> <a href="#top"> back to top</a></p>
+        </div> <!--content2-->
+
+	</div> <!--main-content-->
+	
+    </div><!--page-wrapper-->
+
     
     <footer>
         <p>&copy; 2012 Cozy Crop House | emailhere@cozycrophouse.com</p>
